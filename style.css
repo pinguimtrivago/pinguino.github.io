@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    height: 50px;
+    background: #ffee00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300 px) / 2);
+}
+
+.logo{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: auto;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  }
+
+.mwhinstaller {
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+}
+
+.putinstaller {
+    padding: 110px 10px;
+    text-align: right;
+}
+
+.mcs {
+    text-align: center;
+    padding: auto;
+}
